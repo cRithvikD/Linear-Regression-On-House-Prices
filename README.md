@@ -15,11 +15,11 @@ SalePrice ~ LotArea + BsmtFinSF1 + SaleCondition + TotalBsmtSF + GarageCars + Gr
 This is a combination of predictors that comprehensively cover key dimensions across size, location, condition/amenity, and transaction to predict the sale price of real estate. 
 
 Additionally, we are confident that this is the best model because Adjusted R2 increased from 0.853 to 0.927. Additionally, we
-Removed predictors with t-test p-values for all levels < 0.05
-Conducted EDA to confirm that there is no high correlation between numerical predictors and removed predictors with a high proportion of NULL values 
-Conducted data structure validation to remove predictors with high multicollinearity (VIF, autocorrelation plot), and removed outlier data points (External studentized residuals, Cook’s Distance) 
-Conducted model assumption checks around heteroskedasticity (Breush-Pagan Test) , normality (KS Test, JB Test, Histogram and scatter plot of residuals, QQ plot) , and linear relationship between chosen predictors and the response variable (scatter plot of predictors versus response variable) 
-Selected the model based on the optimal order of predictors (ANOVA Type=1) and also from the pool of all possible combinations of predictors (Adjusted R2, Mallow’s Cp, AIC, BIC)
+1. Removed predictors with t-test p-values for all levels < 0.05
+2. Conducted EDA to confirm that there is no high correlation between numerical predictors and removed predictors with a high proportion of NULL values 
+3. Conducted data structure validation to remove predictors with high multicollinearity (VIF, autocorrelation plot), and removed outlier data points (External studentized residuals, Cook’s Distance) 
+4. Conducted model assumption checks around heteroskedasticity (Breush-Pagan Test) , normality (KS Test, JB Test, Histogram and scatter plot of residuals, QQ plot) , and linear relationship between chosen predictors and the response variable (scatter plot of predictors versus response variable) 
+5. Selected the model based on the optimal order of predictors (ANOVA Type=1) and also from the pool of all possible combinations of predictors (Adjusted R2, Mallow’s Cp, AIC, BIC)
 
 
 # Acknowledgments
