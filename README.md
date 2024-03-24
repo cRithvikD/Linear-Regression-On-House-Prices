@@ -6,7 +6,7 @@ Ask a home buyer to describe their dream house, and they probably won't begin wi
 
 With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this project challenges us to predict the final price of each home.
 
-Summary of results using Linear Regression
+# Summary of results using Linear Regression
 
 Our final model is: 
 
@@ -22,7 +22,8 @@ Conducted model assumption checks around heteroskedasticity (Breush-Pagan Test) 
 Selected the model based on the optimal order of predictors (ANOVA Type=1) and also from the pool of all possible combinations of predictors (Adjusted R2, Mallow’s Cp, AIC, BIC)
 
 
-Acknowledgments
+# Acknowledgments
+
 1. The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset.
 2. Anna Montoya, DataCanary. (2016). House Prices - Advanced Regression Techniques. Kaggle. https://kaggle.com/competitions/house-prices-advanced-regression-techniques
 3. Thanks to Dr. Shan Wang for organizing this competition as part of the 'MSDS 601: Linear Regression Analysis' course at USFCA!
